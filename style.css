@@ -246,11 +246,29 @@ footer {
     border-radius: 8px;
 }
 
+.info-content>p {
+    padding-top: 5px;
+}
+
 .quote {
-    background-color: #E5E7EB
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    background-color: #E5E7EB;
+    padding: 0 24%;
 }
 
 .quote-text {
     font-size: 36px;
-    font-weight: light;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
 }
+
+.quote>p {
+    padding-top: 20px;
+}
+
